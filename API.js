@@ -130,7 +130,7 @@ function API_apiBattles(battleId, callback, notRetry)
     return API_getAPI(url, callback, notRetry);
 }
 
-//apiRanks.html
+//apiRanks
 function API_apiRanks(callback, notRetry)
 {
     var url = "apiRanks.html";
