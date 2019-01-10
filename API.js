@@ -129,3 +129,10 @@ function API_apiBattles(battleId, callback, notRetry)
     var url = "apiBattles.html?battleId=" + battleId;
     return API_getAPI(url, callback, notRetry);
 }
+
+//apiRanks.html
+function API_apiRanks(callback, notRetry)
+{
+    var url = "apiRanks.html";
+    return API_getAPI(url, callback, notRetry);
+}
