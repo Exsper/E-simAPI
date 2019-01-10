@@ -35,7 +35,7 @@ function API_getAPI(url, callback, notRetry)
             }
             else
             {
-                console.log(url, "error: (", textStatus, ")£¬try again");
+                console.log(url, "error: (", textStatus, "), try again");
                 $.ajax(this);
             }
         },
@@ -95,7 +95,7 @@ function API_apiOnlinePlayers(countryId, callback, notRetry) //countryId=0 world
             }
             else
             {
-                console.log("apiOnlinePlayers.html?countryId="+countryId+"error: (", textStatus, ")£¬try again");
+                console.log("apiOnlinePlayers.html?countryId="+countryId+"error: (", textStatus, "), try again");
                 $.ajax(this);
             }
         },
