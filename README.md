@@ -1,2 +1,3 @@
 # E-simAPI
-one way to use e-sim API by JavaScript
+one way to use e-sim API by JQuery
+
